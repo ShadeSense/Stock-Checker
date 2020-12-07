@@ -54,11 +54,11 @@ for them to communicate with each other.
 **Python**: Open command prompt and copy file location text of project folder. Type:  
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:  
-```env\Scripts\activate
-   set FLASK_APP=stockTester.py
-   flask run
-   *(Don't copy/paste all at once; enter each line one-by-one)
-```
+	```env\Scripts\activate
+	   set FLASK_APP=stockTester.py
+	   flask run
+	   *(Don't copy/paste all at once; enter each line one-by-one)
+	```
   
 *__NOTE__:  To stop the project, do ctrl+c in the command prompt to stop the server from  
 	running on Python's side. Also, do ctrl+c in the terminal for the webapp and  
