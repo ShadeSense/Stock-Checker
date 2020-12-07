@@ -25,7 +25,7 @@ wasn't something sought after. If I decide to continue this
 project at a later time, it'll be something to look forward to.*  
   
 #####**WHAT TO INSTALL**  
-**Javascript**: For JS, "yarn" is installed instead of using npm,  
+**Javascript**: For JS, "yarn" was installed instead of using npm,  
 so everything needed should be contained in the folder.  
 However, here's a list:  
 ```
@@ -51,7 +51,7 @@ the folder. Here's the list:
 need to 'view' > 'command palette' > 'Python: select interpreter' > Python 3.7.5.*  
   
 #####**SETTING UP DB IF IT DOESNT WORK BY DEFAULT**  
-The Python code handling connections to the DB has been tested to work  
+The Python code handling connections to the DB has been tested to work even  
 if a database for it hasn't been made yet. However, there is still a possibility  
 of it not working. Copy/paste the code below in an empty python file to create the database:  
   
@@ -73,10 +73,12 @@ for them to communicate with each other.
 **Webapp**: Open "stock-checker" in the project folder in Visual Studios. At the bottom,  
 	go to terminal and type "yarn start".  
   
-**Python**: Open command prompt and copy file location text of project folder. Type:  
+**Python**: Open command prompt, copy file location text of project folder, and follow
+	the directions below:
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:
-```
+```sh
+   cd __filelocationtext__ //where "filelocationtext" is the location of file.
    env\Scripts\activate
    set FLASK_APP=stockTester.py
    flask run
