@@ -1,0 +1,39 @@
+body{
+    background-image: url("assets/img/background.jpg");
+}
+
+.disptbl{
+    position: relative;
+    margin-left: 45%;
+}
+
+.RemoveForm{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+}
+
+.removebtn{
+    position: relative;
+    margin-top: 1%;
+    margin-left: 47%;
+    margin-right: 40%;
+}
+
+.alertWarn{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 2%;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.alertSuccess{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 2%;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}

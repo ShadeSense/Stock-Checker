@@ -1,0 +1,46 @@
+body{
+    background-image: url("assets/img/background.jpg");
+}
+
+.div{
+    font-family: helvetica;
+    margin-left: 30%;
+}
+.FindForm{
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 20%;
+    margin-right: 40%;
+}
+.find{
+    margin-left: 40%;
+    position: relative;
+}
+
+.reset{
+    margin-left: 1%;
+    position: relative;
+}
+
+.submit{
+    margin-left: 1%;
+    position: relative;
+}
+
+.alertWarn{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 2%;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.alertSuccess{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 2%;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
