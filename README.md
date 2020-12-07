@@ -52,10 +52,11 @@ for them to communicate with each other.
 **Python**: Open command prompt and copy file location text of project folder. Type:  
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:  
-	env\Scripts\activate  
-	set FLASK_APP=stockTester.py  
-	flask run  
-	*(Don't copy/paste all at once; enter each line one-by-one)  
+	```env\Scripts\activate  
+	   set FLASK_APP=stockTester.py  
+	   flask run  
+	   *(Don't copy/paste all at once; enter each line one-by-one)
+	```
   
 *__NOTE__:  To stop the project, do ctrl+c in the command prompt to stop the server from  
 	running on Python's side. Also, do ctrl+c in the terminal for the webapp and  
@@ -66,7 +67,7 @@ for them to communicate with each other.
 	Clicking "Find" will search Yahoo Finance for the stock and return the stock name in the  
 	text field if found. Clicking "Submit" afterwards will add the stock to the database as  
 	well as an entry.  
-	*This page only finds the stock, if you want repeated entries, go to "Display" page.  
+	*This page only finds the stock, if you want repeated entries, go to "Display" page.*  
   
 **REMOVE**:	The table on this page shows all the stocks and their entries. Type in any of the stock  
 	names provided in the table in the text field for removal. Clicking "Remove" will delete  
@@ -80,7 +81,7 @@ for them to communicate with each other.
 	 to keep the stock. For example, if you only want to keep stock entries that were made 2 days  
 	 prior from the current time, you would type "2". This will remove all previous stock entries  
 	 prior to the number. If you want to display/change another stock, simply click "Reset."  
-  
+  	
 	*If you refresh the stock, the # will mean total entries but not how many exists in the DB.  
 	**Clicking "Display," "Update," or "Refresh" after entering a stock name will gray out the  
 	text field. So, clicking "Update"/"Refresh" after "Display" will change that stock.  
