@@ -9,7 +9,8 @@ discretion.*
 **Javascript**: For JS, "yarn" is installed instead of using npm,  
 so everything needed should be contained in the folder.  
 However, here's a list:  
-```jquery.tabulator  
+```
+   jquery.tabulator  
    react-bootstrap  
    yarn  
    react router dom
@@ -18,7 +19,8 @@ However, here's a list:
 **Python**: For Python, an environment is made in the folder  
 because flask is used. So, everything should also be in  
 the folder. Here's the list:  
-```pip
+```
+   pip
    beautifulsoup4
    requests
    flask
@@ -34,7 +36,8 @@ The Python code handling connections to the DB has been tested to work
 if a database for it hasn't been made yet. However, there is still a possibility  
 of it not working. Copy/paste the code below in an empty python file to create the database:  
   
-```if __name__ == '__main__':
+```python
+if __name__ == '__main__':
     stockDB = mysql.connector.connect(
         host = "yourhostname",
 	user = "yourrootname",
@@ -54,7 +57,8 @@ for them to communicate with each other.
 **Python**: Open command prompt and copy file location text of project folder. Type:  
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:
-```env\Scripts\activate
+```
+   env\Scripts\activate
    set FLASK_APP=stockTester.py
    flask run
    *(Don't copy/paste all at once; enter each line one-by-one)
