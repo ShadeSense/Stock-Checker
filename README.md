@@ -4,25 +4,25 @@ This is due to it being legal to web scrape from Yahoo Finance.
 If you choose to change to a different website, use at your own  
 discretion.__*  
 
-#**Side Notes**
+#**Side Notes**  
 *This is my first time using JS and react-bootstrap as well as  
 only having used html and css a small bit beforehand. Things  
-such as positions of elements, JS syntax, etc. might seem a bit
+such as positions of elements, JS syntax, etc. might seem a bit  
 awkward. The main goal of this project was to display information  
 found from Yahoo Finance because web scraping with just Python  
 seemed like a dull project. This project is also meant as a  
-template for if, or when, I decide to work on this more. Since it
-did its intended purpose that I strived for, I decided to stop.
-I wanted this to be a somewhat small project so I can proceed
-with other projects and, therefore, I don't get tied down by one
-thing. So, sorry in advance for the messiness.*
-
+template for if, or when, I decide to work on this more. Since it  
+did its intended purpose that I strived for, I decided to stop.  
+I wanted this to be a somewhat small project so I can proceed  
+with other projects and, therefore, I don't get tied down by one  
+thing. So, sorry in advance for the messiness.*  
+  
 *As for SQL, as stated previously, this project is meant only  
-for display and changing stock info. So SQL injection preventions
-weren't entirely in place. I have followed some procedures, but
+for display and changing stock info. So SQL injection preventions  
+weren't entirely in place. I have followed some procedures, but  
 since the main purpose of the project is for personal use, it  
-wasn't something sought after. If I decide to continue this
-project at a later time, it'll be something to look forward to.*
+wasn't something sought after. If I decide to continue this  
+project at a later time, it'll be something to look forward to.*  
   
 #####**WHAT TO INSTALL**  
 **Javascript**: For JS, "yarn" is installed instead of using npm,  
