@@ -7,7 +7,7 @@ discretion.__*
 #**Side Notes**  
 *This is my first time using JS and react-bootstrap as well as  
 only having used html and css a small bit beforehand. Things  
-such as positions of elements, JS syntax, etc. might seem a bit  
+such as positioning of elements, JS syntax, etc. might seem a bit  
 awkward. The main goal of this project was to display information  
 found from Yahoo Finance because web scraping with just Python  
 seemed like a dull project. This project is also meant as a  
