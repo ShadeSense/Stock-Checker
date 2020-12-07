@@ -9,20 +9,22 @@ discretion.*
 **Javascript**: For JS, "yarn" is installed instead of using npm,  
 so everything needed should be contained in the folder.  
 However, here's a list:  
-	jquery.tabulator  
-	react-bootstrap  
-	yarn  
-	react router dom  
+```jquery.tabulator  
+   react-bootstrap  
+   yarn  
+   react router dom
+```
   
 **Python**: For Python, an environment is made in the folder  
 because flask is used. So, everything should also be in  
 the folder. Here's the list:  
-	pip  
-	beautifulsoup4  
-	requests  
-	flask  
-	flask_cors  
-	mysql.connector  
+```pip
+   beautifulsoup4
+   requests
+   flask
+   flask_cors
+   mysql.connector
+```
   
 *__NOTE__: This project was done in python 3.7.5. If using Visual Studios,  
 need to 'view' > 'command palette' > 'Python: select interpreter' > Python 3.7.5.*  
@@ -52,9 +54,9 @@ for them to communicate with each other.
 **Python**: Open command prompt and copy file location text of project folder. Type:  
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:  
-	```env\Scripts\activate  
-	   set FLASK_APP=stockTester.py  
-	   flask run  
+	```env\Scripts\activate
+	   set FLASK_APP=stockTester.py
+	   flask run
 	   *(Don't copy/paste all at once; enter each line one-by-one)
 	```
   
