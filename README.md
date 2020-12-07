@@ -32,7 +32,7 @@ The Python code handling connections to the DB has been tested to work
 if a database for it hasn't been made yet. However, there is still a possibility  
 of it not working. Copy/paste the code below in an empty python file to create the database:  
   
-'''if __name__ == '__main__':
+```if __name__ == '__main__':
     stockDB = mysql.connector.connect(
         host = "yourhostname",
 	user = "yourrootname",
@@ -40,7 +40,7 @@ of it not working. Copy/paste the code below in an empty python file to create t
     )
     stockCursor = stockDB.cursor()
     stockCursor.execute("CREATE DATABASE stocksdatabase")
-'''  
+```
   
 ##**SETTING FLASK SERVER AND WEBAPP**  
 To run this project, you need to setup both the webapp and python servers in order  
