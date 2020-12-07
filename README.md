@@ -5,7 +5,7 @@ If you choose to change to a different website, use at your own
 discretion.*  
   
   
-##**WHAT TO INSTALL**  
+#####**WHAT TO INSTALL**  
 **Javascript**: For JS, "yarn" is installed instead of using npm,  
 so everything needed should be contained in the folder.  
 However, here's a list:  
@@ -31,7 +31,7 @@ the folder. Here's the list:
 *__NOTE__: This project was done in python 3.7.5. If using Visual Studios,  
 need to 'view' > 'command palette' > 'Python: select interpreter' > Python 3.7.5.*  
   
-##**SETTING UP DB IF IT DOESNT WORK BY DEFAULT**  
+#####**SETTING UP DB IF IT DOESNT WORK BY DEFAULT**  
 The Python code handling connections to the DB has been tested to work  
 if a database for it hasn't been made yet. However, there is still a possibility  
 of it not working. Copy/paste the code below in an empty python file to create the database:  
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     stockCursor.execute("CREATE DATABASE stocksdatabase")
 ```
   
-##**SETTING FLASK SERVER AND WEBAPP**  
+#####**SETTING FLASK SERVER AND WEBAPP**  
 To run this project, you need to setup both the webapp and python servers in order  
 for them to communicate with each other.  
   
@@ -68,7 +68,7 @@ for them to communicate with each other.
 	running on Python's side. Also, do ctrl+c in the terminal for the webapp and  
 	type "y" to stop the server.*  
   
-##**HOW TO USE EACH PAGE**  
+#####**HOW TO USE EACH PAGE**  
 **FIND**: 	Type a stock name in the text field provided (use abbreviations; i.e. 'Amazon' = 'amzn').  
 	Clicking "Find" will search Yahoo Finance for the stock and return the stock name in the  
 	text field if found. Clicking "Submit" afterwards will add the stock to the database as  
