@@ -1,8 +1,8 @@
 #**IMPORTANT**  
-This project web scrapes data from stocks from Yahoo Finance.  
+*This project web scrapes data from stocks from Yahoo Finance.  
 This is due to it being legal to web scrape from Yahoo Finance.  
 If you choose to change to a different website, use at your own  
-discretion.  
+discretion.*  
   
   
 ##**WHAT TO INSTALL**  
