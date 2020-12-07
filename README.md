@@ -78,7 +78,7 @@ for them to communicate with each other.
 	"cd filelocationtext" where "filelocationtext" is the location of file.  
 	Then copy/paste these in order:
 ```sh
-   cd __filelocationtext__ //where "filelocationtext" is the location of file.
+   cd __filelocationtext__ #where "filelocationtext" is the location of file.
    env\Scripts\activate
    set FLASK_APP=stockTester.py
    flask run
