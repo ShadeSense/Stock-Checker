@@ -73,16 +73,14 @@ for them to communicate with each other.
 **Webapp**: Open "stock-checker" in the project folder in Visual Studios. At the bottom,  
 	go to terminal and type "yarn start".  
   
-**Python**: Open command prompt, copy file location text of project folder, and follow
-	the directions below:
-	"cd filelocationtext" where "filelocationtext" is the location of file.  
-	Then copy/paste these in order:
+**Python**: Open command prompt, copy file location text of project folder, and then  
+	copy/paste these in order:
 ```sh
-   cd __filelocationtext__ #where "filelocationtext" is the location of file.
+   cd filelocationtext #"filelocationtext" is the location of file.
    env\Scripts\activate
    set FLASK_APP=stockTester.py
    flask run
-   *(Don't copy/paste all at once; enter each line one-by-one)
+   #(Don't copy/paste all at once; enter each line one-by-one)
 ```
   
 *__NOTE__:  To stop the project, do ctrl+c in the command prompt to stop the server from  
