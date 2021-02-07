@@ -47,8 +47,8 @@ the folder. Here's the list:
    mysql.connector
 ```
   
-*__NOTE__: This project was done in python 3.7.5. If using Visual Studios,  
-need to 'view' > 'command palette' > 'Python: select interpreter' > Python 3.7.5.*  
+*__NOTE__: This project was done in python 3.8.6. If using Visual Studios,  
+need to 'view' > 'command palette' > 'Python: select interpreter' > Python 3.8.6.*  
   
 #####**SETTING UP DB IF IT DOESNT WORK BY DEFAULT**  
 The Python code handling connections to the DB has been tested to work even  
